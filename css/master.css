@@ -1,0 +1,39 @@
+body{
+  background-color:rgb(252, 247, 168);
+}
+
+.content{
+  min-height: 90vh;
+}
+
+figure{
+  width: 100vw;
+border: 5px solid #000;
+margin-left: 50%;
+transform: translateX(-50%);
+border-color: white;
+
+}
+
+figure img{
+width: 100%;
+
+}
+
+section{
+background-color:rgb(183, 209, 254);
+max-width: 840px;
+margin: 0 auto;
+scroll-snap-type: y proximity;
+}
+
+section div{
+scroll-snap-align: start;
+}
+header ul{
+  display: flex;
+}
+
+header li{
+  margin: 8px;
+}
